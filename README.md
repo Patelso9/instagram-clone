@@ -11,8 +11,13 @@ Cloning the instagram app for use in a website using react
 * https://www.youtube.com/watch?v=f7T48W0cwXM&ab_channel=CleverProgrammer
 
 ## Key Learnings
-* 
+* image rendering: css use object-fit: contain + width: 100%
+* className (reccomended for styling in react) VS class (reserved for class components) 
+* React got it's name becasue it is reacting to the components it needs to react to 
 
+## Packages
+* Firebase
+* Material-UI
 
 <hr/>
 ## Getting Started with Create React App
