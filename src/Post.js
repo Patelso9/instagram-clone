@@ -5,7 +5,7 @@ import Avatar from '@material-ui/core/Avatar';
 
 
 
-function Post() {
+function Post({ username, caption, imageUrl }) {
     return (
         <div className="post">
        
@@ -16,19 +16,19 @@ function Post() {
                 alt="patelso9"
                 src="/static/images/avatar/1.jpg"
             />
-            <h3>Username</h3>
+            <h3>{username}</h3>
         
         </div>
         
         {/* Image */}
             <img 
                 className="post_image"
-                src="https://png.pngtree.com/element_our/md/20180524/md_5b072d393d61e.jpg"
+                src={imageUrl}
             />
 
 
         {/* Username + Caption */}
-            <h4 className="post_text"> <strong>patelso9</strong> Hello world</h4>
+            <h4 className="post_text"> <strong>{username}</strong> {caption} </h4>
 
         </div>
     )
