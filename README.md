@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# Instagram Clone
+
+## Description
+Cloning the instagram app for use in a website using react
+
+## Links
+* Deployed: (not yet deployed)
+* Repo: https://github.com/Patelso9/instagram-clone
+
+## References
+* https://www.youtube.com/watch?v=f7T48W0cwXM&ab_channel=CleverProgrammer
+
+## Key Learnings
+* 
+
+
+<hr/>
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
