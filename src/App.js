@@ -40,11 +40,37 @@ function App() {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+  const [user, setUser] = useState(null)
   
   useEffect(() => {
-    
-  }, []);
+    const unsubscribe = auth.onAuthStateChange((authUser) => {
+      if(authUser) {
+        // user has logged in
+        console.log(authUser)
+        setUser(authUser)
+
+        // if (authUser.displayName) {
+        //   // dont update username
+        // } else {
+        //   // if we just created a new user, update profile and display username
+        //   return authUser.updateProfile({
+        //     displayName: username,
+        //   })
+        // }
+
+      } else {
+        // user has logged out
+        setUser(null)
+      }
+    })
+
+    return() => {
+      // perform cleanup actions
+      unsubscribe();
+    }
+
+  //dependencies, everytime they change we need to listen for it 
+  }, [user, username]);
   
   
   // runs a piece of code based on specific conditions
@@ -60,6 +86,11 @@ function App() {
 
     // creae user with backend validation
     auth.createUserWithEmailAndPassword(email, password)
+    .then((authUser) => {
+      return authUser.user.update.updateProfile({
+        displayName: username,
+      })
+    })
     .catch((error) => alert(error.message))
   }
 
