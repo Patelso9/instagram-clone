@@ -20,6 +20,9 @@ Cloning the instagram app for use in a website using react
 * Firebase: allows nodeJS cloud functions and realtime database (firestore). realtime 2 way sync
 * Material-UI
 
+## Unresolved
+* firebase.js is not reading firebase, still troubleshooting
+
 <hr/>
 ## Getting Started with Create React App
 
