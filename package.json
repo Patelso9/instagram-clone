@@ -1,5 +1,5 @@
 {
-  "name": "instagram-clone",
+  "name": "firebase",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,7 @@
     "firebase": "^9.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -36,5 +36,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "## Description Cloning the instagram app for use in a website using react",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patelso9/instagram-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patelso9/instagram-clone/issues"
+  },
+  "homepage": "https://github.com/Patelso9/instagram-clone#readme"
 }

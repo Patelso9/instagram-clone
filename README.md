@@ -14,6 +14,7 @@ Cloning the instagram app for use in a website using react
 * image rendering: css use object-fit: contain + width: 100%
 * className (reccomended for styling in react) VS class (reserved for class components) 
 * React got it's name becasue it is reacting to the components it needs to react to 
+* ALFRED
 
 ## Packages
 * Firebase: allows nodeJS cloud functions and realtime database (firestore). realtime 2 way sync
