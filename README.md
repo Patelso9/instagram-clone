@@ -7,7 +7,7 @@ Cloning the instagram app for use in a website using react
 * Deployed: (not yet deployed)
 * Repo: https://github.com/Patelso9/instagram-clone
 
-## References
+## Reference
 * https://www.youtube.com/watch?v=f7T48W0cwXM&ab_channel=CleverProgrammer
 
 ## Key Learnings
@@ -16,7 +16,7 @@ Cloning the instagram app for use in a website using react
 * React got it's name becasue it is reacting to the components it needs to react to 
 
 ## Packages
-* Firebase
+* Firebase: allows nodeJS cloud functions and realtime database (firestore). realtime 2 way sync
 * Material-UI
 
 <hr/>
